@@ -14,9 +14,10 @@ json2csv(json, 'CSV_EXPORT', false, false);
 ```
 
 ## Parameters
-| Param | Required | Default Value | Description |
-| --- | --- | --- |
-| `json` | true | | JSON object to convert to CSV |
-| `title` | no | `false` | String title to use for filename and optionally in the CSV |
-| `labelColumns` | no | `false` | Boolean, whether or not to add column labels to the first row of the CSV file |
-| `addTitleToBody` | no | `false` | Boolean, whether or not to add the title to the first row of the CSV file (above label columns if `labelColumns` is true) |
+
+Param | Required | Default Value | Description
+------------ | ------------- | ------------ | -------------
+`json` | true | n/a | JSON object to convert to CSV
+`title` | no | `false` | String title to use for filename and optionally in the CSV
+`labelColumns` | no | `false` | Boolean, whether or not to add column labels to the first row of the CSV file
+`addTitleToBody` | no | `false` | Boolean, whether or not to add the title to the first row of the CSV file (above label columns if `labelColumns` is true)
